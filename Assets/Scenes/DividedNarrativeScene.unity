@@ -1032,6 +1032,8 @@ GameObject:
   - component: {fileID: 895365166}
   - component: {fileID: 895365165}
   - component: {fileID: 895365164}
+  - component: {fileID: 895365187}
+  - component: {fileID: 895365186}
   m_Layer: 0
   m_Name: DividedRoughFlowchart
   m_TagString: Untagged
@@ -2028,8 +2030,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1384.7637
-    y: 511.05927
+    x: 1317.6917
+    y: 500.08362
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2470,6 +2472,56 @@ MonoBehaviour:
   commandList:
   - {fileID: 895365180}
   - {fileID: 895365179}
+--- !u!114 &895365186
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1658.194
+    y: 657.45886
+    width: 121.95123
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 52
+  blockName: New Block1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &895365187
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1459.413
+    y: 692.82355
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 51
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
 --- !u!1 &1020378993
 GameObject:
   m_ObjectHideFlags: 0
