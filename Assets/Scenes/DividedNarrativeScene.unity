@@ -1034,6 +1034,21 @@ GameObject:
   - component: {fileID: 895365164}
   - component: {fileID: 895365187}
   - component: {fileID: 895365186}
+  - component: {fileID: 895365202}
+  - component: {fileID: 895365201}
+  - component: {fileID: 895365200}
+  - component: {fileID: 895365199}
+  - component: {fileID: 895365198}
+  - component: {fileID: 895365197}
+  - component: {fileID: 895365196}
+  - component: {fileID: 895365195}
+  - component: {fileID: 895365194}
+  - component: {fileID: 895365193}
+  - component: {fileID: 895365192}
+  - component: {fileID: 895365191}
+  - component: {fileID: 895365190}
+  - component: {fileID: 895365189}
+  - component: {fileID: 895365188}
   m_Layer: 0
   m_Name: DividedRoughFlowchart
   m_TagString: Untagged
@@ -1200,7 +1215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1128
     y: 165
-    width: 131.70734
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1228,7 +1243,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1098
     y: 299
-    width: 170.73174
+    width: 151.49255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1601,7 +1616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 715.1763
     y: 506.2355
-    width: 185.36589
+    width: 164.92538
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1631,7 +1646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 678.17645
     y: 375.41202
-    width: 145.12198
+    width: 129.10449
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1660,7 +1675,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 672
     y: 278
-    width: 154.87808
+    width: 135.07463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1689,7 +1704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 906
     y: 165
-    width: 136.58539
+    width: 121.64179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1823,9 +1838,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1286.3535
-    y: 384.17688
-    width: 146.34149
+    x: 1277.8171
+    y: 381.73785
+    width: 130.59702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1849,11 +1864,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -645.99915, y: -28.190647}
+  scrollPos: {x: -377.33664, y: -119.14671}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8199998
+  zoom: 0.66999996
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2005,8 +2020,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1643.5889
-    y: 439.7062
+    x: 1660.6616
+    y: 382.3891
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2015,7 +2030,11 @@ MonoBehaviour:
   blockName: Ylib
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 895365198}
+  - {fileID: 895365197}
+  - {fileID: 895365196}
+  - {fileID: 895365195}
 --- !u!114 &895365169
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2041,9 +2060,17 @@ MonoBehaviour:
   description: "Mr. Latson knows of their curse, and their dillema, but keeps it a
     secret, and even provides them with accommodations\r\n\r\nYlib doesn't trust him,
     and resents this kind of power he holds over them\r\n\r\nColin compares Ylib and
-    Latson, calling them flowery, manipulative, sadists"
+    Latson, calling them flowery, manipulative, sadists.\r\n\r\nCollin goes into how
+    Ylib is so hesitant to trust anyone, and especially not authority figures.\r\n\r\nYlib
+    replies with their condition, and how they'd never understand. And how they'd
+    be arrested/put in rehab, if anyone responsible found their secret. And they'd
+    die within the month, from the curse.\r\n\r\n[[Murders]]\r\n[[Thoughts of Suicide]] "
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 895365202}
+  - {fileID: 895365201}
+  - {fileID: 895365200}
+  - {fileID: 895365199}
 --- !u!114 &895365170
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2355,7 +2382,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1468.1772
     y: 185.41182
-    width: 159.75612
+    width: 141.04478
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2459,9 +2486,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1269.941
-    y: 257.2352
-    width: 143.90247
+    x: 1276.0385
+    y: 252.35715
+    width: 127.611946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2486,17 +2513,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1658.194
-    y: 657.45886
-    width: 121.95123
+    x: 1639.0525
+    y: 702.582
+    width: 148.50748
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 52
-  blockName: New Block1
-  description: 
+  blockName: Thoughts of Suicide
+  description: "Ylib is briefly shaken by the suggestion, before dismissing it\r\n\r\nCollin
+    presses the idea further, stating his guilt for what they've done, and how weary
+    he's been, having Ylib control him, since he was six. And asks what it all for,
+    in the end.\r\n\r\nYlib replies that he's sustained them, and has been pushing
+    Collin so much, so that he'll grow up, and won't need him anymore.\r\n\r\nCollin
+    asks if that means he'd have to do the killing instead, and asks if that'd be
+    part of the plan, for them. Hinting that he'd be \"having all of his fun.\""
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 895365190}
+  - {fileID: 895365189}
+  - {fileID: 895365188}
 --- !u!114 &895365187
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2511,17 +2547,421 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1459.413
-    y: 692.82355
+    x: 1319.9304
+    y: 957.02527
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 51
-  blockName: New Block
+  blockName: Murders
+  description: "Collin questions if there is a point to all of the killing Ylib does\r\n\r\nYlib
+    is tired with Collin's objections, restating their curse, and how they have to
+    kill someone every few weeks, to keep their heart going. Asking if he remembers.\r\n\r\nCollin
+    states he only remembers the killing started, when Ylib first entered his life,
+    and questions how he can seemingly be so well-read, and not know how to end the
+    curse, or how it even happened.\r\n\r\nCollin then recalls that they were disowned
+    by his parents, shortly after they found out. Remembering their sister.\r\n\r\nYlib
+    tries to justify, that they were killing bums, and drug dealers, and that Collin
+    was not responsible for their deaths. Further stating that Collin asked him to
+    be hard on him, after killing, to ensure he never feels comfortable from it.\r\n\r\nCollin
+    suggests that Ylib had been the one upsetting his heartbeat, to justify"
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 895365193}
+  - {fileID: 895365192}
+  - {fileID: 895365191}
+--- !u!114 &895365188
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365194}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365189
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 66
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365190
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 65
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365191
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365194}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365192
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365193
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365194
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1874.9038
+    y: 372.38824
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 61
+  blockName: Ylib's anger
   description: 
   eventHandler: {fileID: 0}
   commandList: []
+--- !u!114 &895365195
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365186}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365196
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365187}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365197
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365198
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365199
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365186}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365200
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365187}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365201
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &895365202
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1020378993
 GameObject:
   m_ObjectHideFlags: 0
