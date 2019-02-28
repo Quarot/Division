@@ -1080,6 +1080,11 @@ GameObject:
   - component: {fileID: 895365205}
   - component: {fileID: 895365204}
   - component: {fileID: 895365203}
+  - component: {fileID: 895365238}
+  - component: {fileID: 895365237}
+  - component: {fileID: 895365236}
+  - component: {fileID: 895365235}
+  - component: {fileID: 895365234}
   m_Layer: 0
   m_Name: DividedRoughFlowchart
   m_TagString: Untagged
@@ -1246,7 +1251,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1128
     y: 165
-    width: 128.94736
+    width: 128.04877
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1274,7 +1279,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1098
     y: 299
-    width: 166.84207
+    width: 167.07315
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1647,7 +1652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 715.1763
     y: 506.2355
-    width: 179.47365
+    width: 177.64224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1677,7 +1682,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 678.17645
     y: 375.41202
-    width: 142.63156
+    width: 140.24388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1706,7 +1711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 672
     y: 278
-    width: 153.15787
+    width: 149.18698
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1735,7 +1740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 906
     y: 165
-    width: 135.26314
+    width: 135.36584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1847,9 +1852,9 @@ MonoBehaviour:
   useCustomTint: 0
   itemId: 1
   blockName: Beginning
-  description: "Wake up in bedroom\r\n\r\nFeeling of dread\r\n\r\nSee Mirror and phone\r\n\r\nPhone
-    starts ringing\r\n\r\nSee clothes\r\n\r\n[[Get out of Bed]]\n[[Just go back to
-    sleep ->Ignore the Phone]]"
+  description: "Wake up in bedroom\r\n\r\nFeeling of dread\r--It happened again\n\r\nSee
+    Mirror and phone\r\n\r\nPhone starts ringing\r\n\r\nSee clothes\r\n\r\n[[Get out
+    of Bed]]\n[[Just go back to sleep ->Ignore the Phone]]"
   eventHandler: {fileID: 895365132}
   commandList:
   - {fileID: 895365159}
@@ -1871,7 +1876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1277.8171
     y: 381.73785
-    width: 142.63156
+    width: 141.8699
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1895,18 +1900,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1502.3973, y: -37.92663}
+  scrollPos: {x: -1663.5098, y: 146.68535}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.76000017
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 895365233}
   selectedCommands: []
   variables: []
   description: 
@@ -2107,7 +2113,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 45
-  blockName: Mr. Latson
+  blockName: Dr. Latson
   description: "Mr. Latson knows of their curse, and their dillema, but keeps it a
     secret, and even provides them with accommodations\r\n\r\nYlib doesn't trust him,
     and resents this kind of power he holds over them\r\n\r\nColin compares Ylib and
@@ -2358,7 +2364,8 @@ MonoBehaviour:
     back away\r\n\r\nColin gets angrier\r\n\r\nYlib defends himself, that Edward is
     violent, and Jennifer is unstable, calling them dangerous to be with\r\n\r\nColin
     retorts that he's kept them away from so many others, Ylib retorts with their
-    problems/connections, bad influences\r\n\r\n[[Mr. Latson]]\r\n[[Ylib]]"
+    problems/connections, bad influences\r\n\r\n(At some point, Ylib irritably referrs
+    to Collin by his full name: 'Collin Barnett')\n\n[[Mr. Latson]]\r\n[[Ylib]]"
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365167}
@@ -2431,15 +2438,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1468.1772
-    y: 185.41182
-    width: 154.21051
+    x: 1356.4121
+    y: 147.72179
+    width: 154.06502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 33
   blockName: Answer the Phone
-  description: '[[Disdain]] '
+  description: "Sit in front of mirror, pick up phone\r, it's heavy and cold\n\n[[Disdain]] "
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365171}
@@ -2539,7 +2546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1276.0385
     y: 252.35715
-    width: 140.52629
+    width: 140.24388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2566,7 +2573,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1653.8066
     y: 746.84424
-    width: 165.78944
+    width: 164.63412
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2819,6 +2826,7 @@ MonoBehaviour:
   - {fileID: 895365221}
   - {fileID: 895365219}
   - {fileID: 895365220}
+  - {fileID: 895365234}
 --- !u!114 &895365195
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3118,14 +3126,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2302.0046
-    y: 201.84222
-    width: 239.47363
+    x: 2776.1985
+    y: 64.89104
+    width: 236.99184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 95
-  blockName: Reach out to Mr. Latson for help
+  blockName: Reach out to Dr. Latson for help
   description: 
   eventHandler: {fileID: 0}
   commandList: []
@@ -3580,15 +3588,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1865.7072
-    y: 244.1946
-    width: 179.47365
+    x: 1829.7072
+    y: 129.1946
+    width: 176.82924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 77
   blockName: Back Out from Suicide
-  description: 
+  description: 'Collin gets a strange feeling, weariness, and dizziness, like something
+    heavy rolled off of his head. When he comes to, he asks if Ylib did something
+    to him, only to be shocked by Ylib''s expression, even some tears.
+
+
+    Ylib breaks down in tears, apologizing for everything he''s put him through, addmitting
+    he''s just as scared and confused in the larger picture. And that he loves him,
+    like a brother. Asking what to do.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365204}
@@ -3608,17 +3623,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2430.4526
-    y: 580.9048
-    width: 131.05261
+    x: 2152.5703
+    y: 157.84608
+    width: 197.15443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 76
-  blockName: Illegal means
-  description: 
+  blockName: Back Out from Pacemaker
+  description: 'Collin second-guesses if a pacemaker would actually work, adding that
+    Ylib is probably right "As usual."
+
+
+    Ylib is struck by the last words from Collin, and is silent with him, for a while.
+
+
+    Ylib then aknowledges how controlling he''s been of his life, and how mutch it''s
+    hurting him, conceding that maybe he should Listen to Collin more, and is willing
+    to  hear him out on whatever else he might want.'
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 895365238}
+  - {fileID: 895365237}
+  - {fileID: 895365236}
 --- !u!114 &895365226
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3633,15 +3660,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2429.3835
-    y: 508.85052
-    width: 281.5789
+    x: 2532.7334
+    y: 488.55664
+    width: 304.4715
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 75
-  blockName: Reach out to Mr. Latson For pacemaker
-  description: 
+  blockName: Reach out to Dr. Latson For pacemaker help
+  description: 'Collin suggests that Mr. Latson might know of a means to get them
+    one, coupled with how he already knows their secret, is a capable psychologist,
+    and might know a means for them.
+
+
+    Ylib expresses some concern for the idea, telling of how he''s manipulated them
+    before, and how he''s not above killing, and worse. That he''d probably want them
+    to do something twisted, in return.
+
+
+    Both are silent.'
   eventHandler: {fileID: 0}
   commandList: []
 --- !u!114 &895365227
@@ -3658,15 +3695,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2441.4038
-    y: 711.67816
-    width: 141.57892
+    x: 2528.4038
+    y: 643.67816
+    width: 141.05688
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 74
   blockName: Suicide Attempt
-  description: 
+  description: 'A struggle, and the screen goes black, ending on the glint of the
+    blade
+
+
+    Asks question if the blackout is from death, or Ylib siezing control'
   eventHandler: {fileID: 0}
   commandList: []
 --- !u!114 &895365228
@@ -3683,15 +3724,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2228.8076
-    y: 541.07776
+    x: 2188.8076
+    y: 384.07773
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 73
   blockName: Pacemaker
-  description: 
+  description: 'Collin suggests they think of a way to get a new heart, or a pacemaker
+
+
+    Ylib expresses relief at the answer, followed by uncertainty as to whether or
+    not it would work, and how they''d get one, and the surgery for it, while keeping
+    their secret. He''s willing to listen to Collin for ideas.
+
+
+
+    Collin expresses that he probably won''t like them.'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365209}
@@ -3711,15 +3761,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2312.536
-    y: 679.5738
+    x: 2339.536
+    y: 642.5738
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 72
   blockName: Suicide 2
-  description: 
+  description: 'Collin states how he remembers where Ylib put the knife, wagering
+    how fast he could slash his wrist, or throat
+
+
+    Ylib begs him to let him help them, telling how much he loves and cares for him'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365214}
@@ -3739,15 +3793,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2174.398
-    y: 651.427
+    x: 2169.398
+    y: 641.427
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 71
   blockName: Suicide 1
-  description: 
+  description: 'Collin states he wants to die, that he can''t bear the curse anymore,
+    the guilt, and is tired of being trapped with him
+
+
+    Ylib tells him of how much he has to live for, and how his life is still worth
+    living'
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365216}
@@ -3767,15 +3826,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2070.809
-    y: 506.22974
+    x: 1967.8091
+    y: 568.22974
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 70
   blockName: An End
-  description: 
+  description: Ylib is silent for a while, before giving a nod, and slowly asking
+    Collin what he means.
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 895365218}
@@ -3795,15 +3855,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2301.632
-    y: 307.3809
-    width: 135.26314
+    x: 2538.989
+    y: 196.14551
+    width: 131.3008
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 69
   blockName: To Find Family
-  description: 
+  description: '"I want to find... them."
+
+
+    Ylib expresses his puzzlement and concern.
+
+
+    Collin clarifies he wants to find his real mother, father, and sister, Shirley.
+
+
+    Ylib gives a grim expression, visibly conflicted.
+
+
+    Collin grants that he knows that he''s not welcome as part of their family. Remembering
+    how his parents disowned him. He doesn''t plan to go back to them, or really even
+    talk to them, but just to see them, and how they are'
   eventHandler: {fileID: 0}
   commandList: []
 --- !u!114 &895365233
@@ -3820,17 +3894,181 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2262.8904
-    y: 428.1407
-    width: 184.73682
+    x: 2857.5308
+    y: 322.60254
+    width: 178.45526
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 68
   blockName: To Live More of my life
-  description: 
+  description: 'Colin asks Ylib for "some space," asking to be allowed to make some
+    mistakes, and get into some trouble on his own.
+
+
+    Ylib quickly'
   eventHandler: {fileID: 0}
   commandList: []
+--- !u!114 &895365234
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365235}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365235
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 3054.7986
+    y: 183.0003
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 102
+  blockName: Uncertainty
+  description: 'Collin shoots his own ideas down, declaring that Ylib is probably
+    right, and that it''s impossible to argue with him. Sinking into more self-doubt.
+
+
+    Ylib apologizes, telling him that he still has a life that is worth living, and
+    promises, that he will do what he can to keep him going, for them to live a happy
+    life, and to protect him. Even referencing their old name, meaning "Resolute protector."
+
+
+    Collin snarkily remarks how he gave it to him, backwards. Then recalls how Ylib
+    gave him his new name, and asks why he chose it.
+
+
+    At first, Ylib states one of the meanings of Collin being ''dove:'' a bird of
+    peace.
+
+
+    Collin then asks about his full given name.
+
+
+    "Well, Collin was also a short version of Nicholas. As for the whole name... well..."
+
+
+    "Was there a reason? You''re always so keen on stuff like these...Just tell me."
+
+
+    "''The victory of the people, is in a place cleared by burning.'' I guess that
+    was my mindset, at the time."
+
+
+    "Is it still the way you think?"
+
+
+    "...I don''t think so."'
+  eventHandler: {fileID: 0}
+  commandList: []
+--- !u!114 &895365236
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365206}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365237
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 895365232}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &895365238
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895365131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1020378993
 GameObject:
   m_ObjectHideFlags: 0
